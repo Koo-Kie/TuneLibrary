@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>830</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>960</width>
+    <height>830</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Music App - Club Info</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="ressource.qrc">
+    <normaloff>:/ressource/icons/music.svg</normaloff>:/ressource/icons/music.svg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>1280</width>
+     <height>1000</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_20">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="main_wrapper" native="true">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="body_wrapper" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(205, 5, 173);</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QWidget" name="menu_title" native="true">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>130</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgba(255, 0, 127, 255)
+</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_15">
+             <item>
+              <widget class="QLabel" name="home_title_2">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>40</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: #ffecf5;
+background-color: none;</string>
+               </property>
+               <property name="text">
+                <string>TuneLibrary</string>
+               </property>
+               <property name="textFormat">
+                <enum>Qt::PlainText</enum>
+               </property>
+               <property name="scaledContents">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="menu_buttons_2" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <horstretch>2</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>300</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="sizeIncrement">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="baseSize">
+                <size>
+                 <width>100</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+background-color: none;
+border:none;
+border-radius:20px;
+padding:10px
+}
+QPushButton:hover{
+background-color: rgb(136, 138, 133);
+
+}</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_16">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_22">
+                  <item>
+                   <widget class="QPushButton" name="playlist_button">
+                    <property name="cursor">
+                     <cursorShape>PointingHandCursor</cursorShape>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="ressource.qrc">
+                      <normaloff>:/ressource/icons/play-circle.svg</normaloff>:/ressource/icons/play-circle.svg</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>40</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="menu_button">
+                    <property name="cursor">
+                     <cursorShape>PointingHandCursor</cursorShape>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="ressource.qrc">
+                      <normaloff>:/ressource/icons/home.svg</normaloff>:/ressource/icons/home.svg</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>40</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="search_button">
+                    <property name="cursor">
+                     <cursorShape>PointingHandCursor</cursorShape>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true"/>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="ressource.qrc">
+                      <normaloff>:/ressource/icons/search.svg</normaloff>:/ressource/icons/search.svg</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>40</width>
+                      <height>40</height>
+                     </size>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QStackedWidget" name="pages_wrapper">
+            <property name="styleSheet">
+             <string notr="true">#home_page{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 0, 127, 255), stop:1 rgba(67, 7, 37, 255));
+}
+#playlist_page{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 0, 127, 255), stop:1 rgba(67, 7, 37, 255));
+}
+#search_page{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 0, 127, 255), stop:1 rgba(67, 7, 37, 255));
+}</string>
+            </property>
+            <property name="currentIndex">
+             <number>2</number>
+            </property>
+            <widget class="QWidget" name="home_page">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <property name="spacing">
+               <number>30</number>
+              </property>
+              <property name="bottomMargin">
+               <number>20</number>
+              </property>
+              <item>
+               <widget class="QWidget" name="featured_songs_wrapper_2" native="true">
+                <property name="styleSheet">
+                 <string notr="true">border: none;
+color: rgb(255, 255, 255);
+background-color: rgb(67, 7, 37);
+border-radius: 30px;</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_4">
+                 <property name="leftMargin">
+                  <number>20</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>20</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="feature_title_3">
+                   <property name="font">
+                    <font>
+                     <pointsize>25</pointsize>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Featured Songs</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="featured_song_wrapper_3" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QLabel{
+font-size:16px;
+
+}</string>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_17">
+                    <item>
+                     <widget class="QFrame" name="song_frame_9">
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_16">
+                       <item>
+                        <widget class="QLabel" name="featured_song_cover_a">
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QWidget" name="widget_10" native="true">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_18">
+                          <item>
+                           <widget class="QLabel" name="title_label_a">
+                            <property name="text">
+                             <string>title</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="popularity_label_a">
+                            <property name="text">
+                             <string>8000</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="author_label_a">
+                         <property name="text">
+                          <string>author</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="song_frame_10">
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_17">
+                       <item>
+                        <widget class="QLabel" name="featured_song_cover_b">
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QWidget" name="widget_11" native="true">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_19">
+                          <item>
+                           <widget class="QLabel" name="title_label_b">
+                            <property name="text">
+                             <string>title</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="popularity_label_b">
+                            <property name="text">
+                             <string>8000</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="author_label_b">
+                         <property name="text">
+                          <string>author</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="song_frame_11">
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_18">
+                       <item>
+                        <widget class="QLabel" name="featured_song_cover_c">
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QWidget" name="widget_12" native="true">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_20">
+                          <item>
+                           <widget class="QLabel" name="title_label_c">
+                            <property name="text">
+                             <string>title</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="popularity_label_c">
+                            <property name="text">
+                             <string>8000</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="author_label_c">
+                         <property name="text">
+                          <string>author</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="song_frame_12">
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_19">
+                       <item>
+                        <widget class="QLabel" name="featured_song_cover_d">
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QWidget" name="widget_13" native="true">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_21">
+                          <item>
+                           <widget class="QLabel" name="title_label_d">
+                            <property name="text">
+                             <string>title</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="popularity_label_d">
+                            <property name="text">
+                             <string>8000</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="author_label_d">
+                         <property name="text">
+                          <string>author</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="discovery_songs_wrapper" native="true">
+                <property name="styleSheet">
+                 <string notr="true">border: none;
+color: white;
+background-color: rgb(67, 7, 37);
+border-radius: 30px;
+</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                 <property name="leftMargin">
+                  <number>20</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>20</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="feature_title">
+                   <property name="font">
+                    <font>
+                     <pointsize>25</pointsize>
+                     <bold>false</bold>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: none;
+</string>
+                   </property>
+                   <property name="text">
+                    <string>Discover</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="featured_song_wrapper" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">background-color: none;</string>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_7">
+                    <item>
+                     <widget class="QFrame" name="song_frame">
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_8">
+                       <item>
+                        <widget class="QLabel" name="featured_song_cover_1">
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QWidget" name="widget_2" native="true">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_8">
+                          <item>
+                           <widget class="QLabel" name="title_label1">
+                            <property name="text">
+                             <string>title</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="popularity_label_1">
+                            <property name="text">
+                             <string>8000</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="author_label_1">
+                         <property name="text">
+                          <string>author</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="song_frame_2">
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_9">
+                       <item>
+                        <widget class="QLabel" name="featured_song_cover_2">
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QWidget" name="widget_4" native="true">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_9">
+                          <item>
+                           <widget class="QLabel" name="title_label2">
+                            <property name="text">
+                             <string>title</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="popularity_label_2">
+                            <property name="text">
+                             <string>8000</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="author_label_2">
+                         <property name="text">
+                          <string>author</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="song_frame_4">
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_11">
+                       <item>
+                        <widget class="QLabel" name="featured_song_cover_3">
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QWidget" name="widget_6" native="true">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_11">
+                          <item>
+                           <widget class="QLabel" name="title_label3">
+                            <property name="text">
+                             <string>title</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="popularity_label_3">
+                            <property name="text">
+                             <string>8000</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="author_label_3">
+                         <property name="text">
+                          <string>author</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QFrame" name="song_frame_3">
+                      <property name="styleSheet">
+                       <string notr="true"/>
+                      </property>
+                      <layout class="QVBoxLayout" name="verticalLayout_10">
+                       <item>
+                        <widget class="QLabel" name="featured_song_cover_4">
+                         <property name="styleSheet">
+                          <string notr="true"/>
+                         </property>
+                         <property name="scaledContents">
+                          <bool>true</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QWidget" name="widget_5" native="true">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>0</width>
+                           <height>50</height>
+                          </size>
+                         </property>
+                         <layout class="QHBoxLayout" name="horizontalLayout_10">
+                          <item>
+                           <widget class="QLabel" name="title_label4">
+                            <property name="text">
+                             <string>title</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QLabel" name="popularity_label_4">
+                            <property name="text">
+                             <string>8000</string>
+                            </property>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="author_label_4">
+                         <property name="text">
+                          <string>author</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="search_page">
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <property name="leftMargin">
+               <number>20</number>
+              </property>
+              <property name="topMargin">
+               <number>20</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QWidget" name="widget" native="true">
+                <property name="styleSheet">
+                 <string notr="true">background-color: none</string>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_4">
+                 <item>
+                  <widget class="QLineEdit" name="search_query_input">
+                   <property name="font">
+                    <font>
+                     <family>Poppins</family>
+                     <pointsize>15</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">border-radius: 5%;
+padding: 10px;
+background-color: rgb(255, 255, 255);
+</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="music_search_button">
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+border: none;
+padding: 10px;
+border-radius: 10px;
+}
+
+QPushButton:hover{
+background-color: rgb(136, 138, 133);
+}</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="ressource.qrc">
+                     <normaloff>:/ressource/icons/search.svg</normaloff>:/ressource/icons/search.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>30</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QListWidget" name="music_search_result_list">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                  <pointsize>20</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 0, 127, 255), stop:1 rgba(67, 7, 37, 255));</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Plain</enum>
+                </property>
+                <property name="lineWidth">
+                 <number>0</number>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>64</width>
+                  <height>64</height>
+                 </size>
+                </property>
+                <property name="resizeMode">
+                 <enum>QListView::Adjust</enum>
+                </property>
+                <property name="layoutMode">
+                 <enum>QListView::SinglePass</enum>
+                </property>
+                <property name="viewMode">
+                 <enum>QListView::ListMode</enum>
+                </property>
+                <property name="selectionRectVisible">
+                 <bool>false</bool>
+                </property>
+                <property name="sortingEnabled">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="action_bar_search" native="true">
+                <property name="styleSheet">
+                 <string notr="true">*{
+background-color: none;
+}
+
+QPushButton:hover{
+background-color: rgb(136, 138, 133);
+}</string>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                 <item>
+                  <widget class="QComboBox" name="add_to_button">
+                   <property name="placeholderText">
+                    <string/>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>Add to</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="preview_button">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="ressource.qrc">
+                     <normaloff>:/ressource/icons/play-circle.svg</normaloff>:/ressource/icons/play-circle.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>40</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="flat">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pause_button">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="ressource.qrc">
+                     <normaloff>:/ressource/icons/pause-circle.svg</normaloff>:/ressource/icons/pause-circle.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>40</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="flat">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="stop_button">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="ressource.qrc">
+                     <normaloff>:/ressource/icons/stop-circle.svg</normaloff>:/ressource/icons/stop-circle.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>40</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <property name="flat">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QSlider" name="volume_slider">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>100</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>250</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximum">
+                    <number>100</number>
+                   </property>
+                   <property name="singleStep">
+                    <number>1</number>
+                   </property>
+                   <property name="value">
+                    <number>50</number>
+                   </property>
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="playlist_page">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QTreeWidget" name="playlist_viewer">
+                <property name="font">
+                 <font>
+                  <pointsize>17</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 0, 127, 255), stop:1 rgba(67, 7, 37, 255));</string>
+                </property>
+                <property name="sizeAdjustPolicy">
+                 <enum>QAbstractScrollArea::AdjustIgnored</enum>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>30</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="autoExpandDelay">
+                 <number>1</number>
+                </property>
+                <property name="uniformRowHeights">
+                 <bool>true</bool>
+                </property>
+                <property name="animated">
+                 <bool>true</bool>
+                </property>
+                <property name="allColumnsShowFocus">
+                 <bool>true</bool>
+                </property>
+                <property name="wordWrap">
+                 <bool>true</bool>
+                </property>
+                <property name="headerHidden">
+                 <bool>false</bool>
+                </property>
+                <attribute name="headerVisible">
+                 <bool>true</bool>
+                </attribute>
+                <attribute name="headerCascadingSectionResizes">
+                 <bool>false</bool>
+                </attribute>
+                <attribute name="headerHighlightSections">
+                 <bool>false</bool>
+                </attribute>
+                <attribute name="headerShowSortIndicator" stdset="0">
+                 <bool>false</bool>
+                </attribute>
+                <attribute name="headerStretchLastSection">
+                 <bool>true</bool>
+                </attribute>
+                <column>
+                 <property name="text">
+                  <string>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </string>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>20</pointsize>
+                   <italic>true</italic>
+                  </font>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ </string>
+                 </property>
+                </column>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="playlist_action_buttons" native="true">
+                <property name="cursor">
+                 <cursorShape>PointingHandCursor</cursorShape>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: none;
+QPushButton{
+	background-color: none;
+}
+QPushButton:hover{
+	background-color: rgb(92, 53, 102);
+}
+</string>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_6">
+                 <item>
+                  <widget class="QPushButton" name="delete_playlist_button">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="ressource.qrc">
+                     <normaloff>:/ressource/icons/trash-2.svg</normaloff>:/ressource/icons/trash-2.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>30</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="flat">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="rating_playlist_button">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="ressource.qrc">
+                     <normaloff>:/ressource/icons/star.svg</normaloff>:/ressource/icons/star.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>30</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="flat">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="create_playlist_button">
+                   <property name="cursor">
+                    <cursorShape>PointingHandCursor</cursorShape>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true"/>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="ressource.qrc">
+                     <normaloff>:/ressource/icons/plus-square.svg</normaloff>:/ressource/icons/plus-square.svg</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>30</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="default">
+                    <bool>false</bool>
+                   </property>
+                   <property name="flat">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="action_bar_search_2" native="true">
+                   <layout class="QHBoxLayout" name="horizontalLayout_5">
+                    <item>
+                     <widget class="QPushButton" name="preview_button_2">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="cursor">
+                       <cursorShape>PointingHandCursor</cursorShape>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="ressource.qrc">
+                        <normaloff>:/ressource/icons/play-circle.svg</normaloff>:/ressource/icons/play-circle.svg</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>40</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="flat">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pause_button_2">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="cursor">
+                       <cursorShape>PointingHandCursor</cursorShape>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="ressource.qrc">
+                        <normaloff>:/ressource/icons/pause-circle.svg</normaloff>:/ressource/icons/pause-circle.svg</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>40</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="flat">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="stop_button_2">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="cursor">
+                       <cursorShape>PointingHandCursor</cursorShape>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="icon">
+                       <iconset resource="ressource.qrc">
+                        <normaloff>:/ressource/icons/stop-circle.svg</normaloff>:/ressource/icons/stop-circle.svg</iconset>
+                      </property>
+                      <property name="iconSize">
+                       <size>
+                        <width>40</width>
+                        <height>40</height>
+                       </size>
+                      </property>
+                      <property name="flat">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QSlider" name="volume_slider_2">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                        <horstretch>100</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>250</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="cursor">
+                       <cursorShape>SplitHCursor</cursorShape>
+                      </property>
+                      <property name="maximum">
+                       <number>100</number>
+                      </property>
+                      <property name="singleStep">
+                       <number>1</number>
+                      </property>
+                      <property name="value">
+                       <number>50</number>
+                      </property>
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ressource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
